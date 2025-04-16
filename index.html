@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dr. Khushboo Mishra - Gynecologist</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    /* Add CSS for circular border */
+    .doctor-image img {
+      width: 200px; /* Adjust as needed */
+      height: 200px; /* Adjust as needed */
+      border-radius: 50%; /* Circular shape */
+      border: 5px solid #4CAF50; /* Green border */
+      object-fit: cover; /* Ensures the image covers the circle */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Dr. Khushboo Kumari</h1>
+    <p>Specialist in Gynecology</p>
+  </header>
+
+  <div class="appointment-bar">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdruYhnP8okUN_F2HF-s0yKVvuXQrOw4FmuUcAVcZa3iJO49Q/viewform?usp=header" class="appointment-btn">
+      <button>Book Appointment</button>
+    </a>
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" role="button" tabindex="0">&#9776;</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#clinic">Clinic</a></li>
+      <li><a href="#treatments">Treatments</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About Doctor</a></li>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdruYhnP8okUN_F2HF-s0yKVvuXQrOw4FmuUcAVcZa3iJO49Q/viewform?usp=header">Appointment</a></li>
+    </ul>
+  </nav>
+
+    </ul>
+  </nav>
+
+ <div class="container">
+  
+  <div class="doctor-image">
+    <img src="assets/images/doctorimage.jpg" alt="Dr. Khushboo Mishra" />
+  </div>
+
+  <div class="profile" id="about">
+    <h2>About Dr. Khushboo Kumari</h2>
+    <p>
+      Dr. Khushboo Mishra is a highly experienced gynecologist dedicated to providing exceptional healthcare services for women. She specializes in obstetrics, reproductive health, and prenatal care.
+    </p>
+  </div>
+  
+</div>
+
+
+    <div class="clinic-info" id="clinic">
+      <h3>Our Clinic</h3>
+      <p>
+        Our clinic is equipped with the latest medical technology to provide top-tier healthcare for women. We offer a range of services, including regular checkups, prenatal care, and specialized treatments.
+      </p>
+      <img src="assets/images/googlereview.png" alt="" />
+        <img src="assets/images/map.png" alt="" />
+      <div class="map-button">
+        <button onclick="redirectToMap()">Find Our Clinic on Google Maps</button>
+      </div>
+    </div>
+
+    
+    <div class="image-slider" id="gallery">
+      <h3>Treatments in Action</h3>
+      <div class="slider">
+        <img src="assets/images/hopital1.jpg" class="slider-image" alt="Treatment">
+        <img src="assets/images/hospital.jpeg" class="slider-image" alt="Treatment">
+        <img src="assets/images/hospital2.webp" class="slider-image" alt="Treatment">
+        <img src="assets/images/hospital3.jpeg" class="slider-image" alt="Treatment">
+      </div>
+    </div>
+    <div class="clinic-info" id="clinic">
+        
+      
+        <div class="clinic-timings">
+            <h4>Clinic Timings:</h4>
+            <table>
+              <tr><td>Monday</td><td>10:00 AM – 1:00 PM, 5:00 PM – 8:00 PM</td></tr>
+              <tr><td>Tuesday</td><td>10:00 AM – 1:00 PM, 5:00 PM – 8:00 PM</td></tr>
+              <tr><td>Wednesday</td><td>10:00 AM – 1:00 PM, 5:00 PM – 8:00 PM</td></tr>
+              <tr><td>Thursday</td><td>10:00 AM – 1:00 PM, 5:00 PM – 8:00 PM</td></tr>
+              <tr><td>Friday</td><td>10:00 AM – 1:00 PM, 5:00 PM – 8:00 PM</td></tr>
+              <tr><td>Saturday</td><td>10:00 AM – 1:00 PM, 5:00 PM – 8:00 PM</td></tr>
+              <tr><td>Sunday</td><td style="color: red;">Closed</td></tr>
+            </table>
+          </div>
+      
+
+          <div class="clinic-info" id="contact">
+            <h4>Contact Information</h4>
+            <p>House No. 8, Ashok Nagar, Matrichhaya</p>
+            <p>Road Number 14, Near Dena Bank</p>
+            <p>Kankarbagh, Patna, Bihar - 800020</p>
+            <p>Email: <a href="mailto:dr.khushboomishra@example.com">dr.khushboomishra@example.com</a></p>
+            <p>Phone: <a href="tel:+919876543210">+91-9876543210</a></p>
+          </div>
+  </div>
+
+  <div class="treatment-links" id="treatments">
+    <h3>Treatments We Offer</h3>
+    <ul>
+      <li><a href="treatments/prenatal-care.html">Prenatal Care</a></li>
+      <li><a href="treatments/postnatal-care.html">Postnatal Care</a></li>
+      <li><a href="treatments/menstrual-disorders.html">Menstrual Disorders</a></li>
+      <li><a href="treatments/fertility-treatments.html">Fertility Treatments</a></li>
+      <li><a href="treatments/gynecological-surgery.html">Gynecological Surgery</a></li>
+      <li><a href="treatments/menopause-management.html">Menopause Management</a></li>
+      <li><a href="treatments/contraception-counseling.html">Contraception Counseling</a></li>
+      <li><a href="treatments/std-testing.html">STD Testing</a></li>
+    </ul>
+  </div>
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>
